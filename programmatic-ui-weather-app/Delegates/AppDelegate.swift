@@ -34,8 +34,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     func applicationWillTerminate(_ application: UIApplication) {
         //Called when the appcation will be terminated
-        let main = MainViewController()
-        main.locationManager.stopUpdatingLocation()
     }
     func applicationDidEnterBackground(_ application: UIApplication) {
         //Called when application enters background
